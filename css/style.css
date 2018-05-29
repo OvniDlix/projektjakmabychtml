@@ -48,3 +48,29 @@ body{
   color: #333333;
   padding-left: 1.5rem;
 }
+
+.slider-container{
+  padding: 0;
+  overflow: hidden;
+}
+
+.main-container{
+  background: #fff;
+
+}
+
+.main-container > article > header > h2{
+  display: flex;
+  justify-content: center;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 600;
+  font-size: 1.6rem;
+  color: #333333;
+}
+
+.main-container > article > header > p{
+  display: flex;
+  text-align: center;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+}
