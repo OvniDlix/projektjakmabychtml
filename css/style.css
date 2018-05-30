@@ -12,6 +12,13 @@ body{
   display: none;
 }
 
+p{
+  font-size: 1.4rem;
+  margin-bottom: 1.2rem;
+  line-height: 2rem;
+  text-align: center;
+}
+
 .container{
   box-sizing: border-box;
   width: 576px;
@@ -56,6 +63,8 @@ body{
 
 .main-container{
   background: #fff;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 
 }
 
@@ -68,9 +77,28 @@ body{
   color: #333333;
 }
 
-.main-container > article > header > p{
+.main-container-offers{
   display: flex;
-  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 4rem 0;
+}
+
+.main-container-offers > figure{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.main-container-offers > figure:last-child{
+  margin-bottom: 0;
+}
+
+.main-container-offers > figure > figcaption > h3{
+  font-size: 1.6rem;
   font-family: 'IBM Plex Sans', sans-serif;
-  font-weight: 400;
+  font-weight: 600;
+  text-align: center;
 }

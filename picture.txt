@@ -1,0 +1,9 @@
+To mam wykorzystać gdzieś żeby obrazki działały
+
+padding w containerze to średni pomysł 
+
+            <picture>
+                <source media="(min-width: 576px)" srcset="img/sm-ico-1.png">
+                <source media="(min-width: 992px)" srcset="img/sm-ico-1@2x.png">
+                <img src="img/sm-ico-1.png" alt="icon1" style="width:auto;">
+            </picture>
